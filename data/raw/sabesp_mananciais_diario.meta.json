@@ -1,0 +1,28 @@
+{
+  "fonte": "Portal dos Mananciais - Sabesp (API v4)",
+  "url": "https://mananciais.sabesp.com.br/api/v4",
+  "inicio": "2000-01-01",
+  "fim": "2026-11-04",
+  "coletado_em": "2026-11-05T00:20:24.497317",
+  "sistemas": {
+    "64": "Cantareira",
+    "65": "Alto Tietê",
+    "66": "Guarapiranga",
+    "67": "Cotia",
+    "68": "Rio Grande",
+    "69": "Rio Claro",
+    "72": "São Lourenço",
+    "75": "SIM (Integrado)"
+  },
+  "parametros": {
+    "684": "volume_pct",
+    "685": "volume_hm3",
+    "1": "chuva_mm",
+    "694": "chuva_media_hist_mm",
+    "690": "vazao_natural_m3s",
+    "698": "vazao_natural_mlt_m3s",
+    "691": "vazao_afluente_m3s",
+    "687": "vazao_captada_m3s",
+    "689": "vazao_jusante_m3s"
+  }
+}
