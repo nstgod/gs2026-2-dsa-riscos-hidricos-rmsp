@@ -1,0 +1,556 @@
+{
+  "data_referencia": "2026-11-04",
+  "coletado_em": "2026-11-05",
+  "painel": [
+    {
+      "sistema": "Cantareira",
+      "IVU (%)": 52.52035,
+      "ITV30 (p.p.)": 11.355609999999999,
+      "IAP90 (%)": 211.80826109354996,
+      "IAF90 (%)": 171.56781099073226,
+      "BH30 (hm³)": 111.92611104,
+      "AUT (dias)": "sem déficit",
+      "IRH": 18.411362080766594,
+      "nível pelo volume": "Atenção",
+      "NÍVEL DE ALERTA": "Atenção",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "Alto Tietê",
+      "IVU (%)": 60.47928,
+      "ITV30 (p.p.)": 6.19267,
+      "IAP90 (%)": 239.80262291415494,
+      "IAF90 (%)": 261.22686570667423,
+      "BH30 (hm³)": 31.99907808,
+      "AUT (dias)": "sem déficit",
+      "IRH": 13.15412989672822,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "Guarapiranga",
+      "IVU (%)": 89.76726,
+      "ITV30 (p.p.)": -5.315940000000012,
+      "IAP90 (%)": 261.3488904052894,
+      "IAF90 (%)": 289.28927116342237,
+      "BH30 (hm³)": -9.100632959999993,
+      "AUT (dias)": "507",
+      "IRH": 13.887748117727579,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "Rio Grande",
+      "IVU (%)": 96.20149,
+      "ITV30 (p.p.)": 1.3395600000000059,
+      "IAP90 (%)": 250.97928743419402,
+      "IAF90 (%)": 194.00400050006255,
+      "BH30 (hm³)": 1.3407465600000026,
+      "AUT (dias)": "sem déficit",
+      "IRH": 11.429158110882959,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "Cotia",
+      "IVU (%)": 102.65261,
+      "ITV30 (p.p.)": 11.379419999999996,
+      "IAP90 (%)": 278.9870241914171,
+      "IAF90 (%)": 317.53603962147344,
+      "BH30 (hm³)": -3.49273728,
+      "AUT (dias)": "145",
+      "IRH": 9.39151266255989,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "Rio Claro",
+      "IVU (%)": 60.74333,
+      "ITV30 (p.p.)": 5.033290000000001,
+      "IAP90 (%)": 166.92274011884066,
+      "IAF90 (%)": 174.17582999920512,
+      "BH30 (hm³)": 8.842988159999999,
+      "AUT (dias)": "sem déficit",
+      "IRH": 49.25462012320328,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "São Lourenço",
+      "IVU (%)": 74.22865,
+      "ITV30 (p.p.)": -5.267380000000003,
+      "IAP90 (%)": 241.02462671975948,
+      "IAF90 (%)": 163.98804936616966,
+      "BH30 (hm³)": -4.678318080000001,
+      "AUT (dias)": "423",
+      "IRH": 30.23211967386638,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    },
+    {
+      "sistema": "SIM (Integrado)",
+      "IVU (%)": 62.08649,
+      "ITV30 (p.p.)": 7.019309999999997,
+      "IAP90 (%)": NaN,
+      "IAF90 (%)": 195.25530610517941,
+      "BH30 (hm³)": 304.37573472,
+      "AUT (dias)": "sem déficit",
+      "IRH": 20.51848049281314,
+      "nível pelo volume": "Normal",
+      "NÍVEL DE ALERTA": "Normal",
+      "gatilhos de escalonamento": "-"
+    }
+  ],
+  "previsao_cantareira": [
+    {
+      "horizonte": "30",
+      "data_alvo": "2026-12-04",
+      "previsto_%": "58.5583469434938",
+      "P10_%": "55.09301480603855",
+      "P90_%": "63.44997239676028",
+      "nível previsto": "Atenção"
+    },
+    {
+      "horizonte": "60",
+      "data_alvo": "2027-01-03",
+      "previsto_%": "61.2154669659298",
+      "P10_%": "55.00817116673648",
+      "P90_%": "71.1207708776519",
+      "nível previsto": "Normal"
+    },
+    {
+      "horizonte": "90",
+      "data_alvo": "2027-02-02",
+      "previsto_%": "65.1086052724724",
+      "P10_%": "55.97862069590343",
+      "P90_%": "75.51488970591075",
+      "nível previsto": "Normal"
+    }
+  ],
+  "prob_evento_60d": 0.006967614129843768,
+  "tau": 0.6063072767752626,
+  "reg": [
+    {
+      "horizonte": 30,
+      "modelo": "Persistência (Δ=0)",
+      "MAE": 4.158053569391635,
+      "RMSE": 5.309643526275618,
+      "R2": 0.9084022424109485,
+      "MAE quando V(t+h)<40": 3.7030133574529662,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 30,
+      "modelo": "Climatologia sazonal",
+      "MAE": 2.7392048649537766,
+      "RMSE": 3.844986650454336,
+      "R2": 0.9519665495763395,
+      "MAE quando V(t+h)<40": 2.1831986213992067,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 30,
+      "modelo": "Ridge",
+      "MAE": 2.6094034711747454,
+      "RMSE": 3.565158719351071,
+      "R2": 0.9587036326351187,
+      "MAE quando V(t+h)<40": 2.2597273287045128,
+      "cobertura P10–P90": 0.7404942965779467
+    },
+    {
+      "horizonte": 30,
+      "modelo": "RandomForest",
+      "MAE": 2.4298697731499406,
+      "RMSE": 3.5236035421692495,
+      "R2": 0.9596607157669654,
+      "MAE quando V(t+h)<40": 1.790042449483172,
+      "cobertura P10–P90": 0.7366920152091255
+    },
+    {
+      "horizonte": 60,
+      "modelo": "Persistência (Δ=0)",
+      "MAE": 7.609297459016393,
+      "RMSE": 9.62413135254661,
+      "R2": 0.7031205909086322,
+      "MAE quando V(t+h)<40": 6.421631114327064,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 60,
+      "modelo": "Climatologia sazonal",
+      "MAE": 4.744014418677352,
+      "RMSE": 6.470301281651241,
+      "R2": 0.8658143727843102,
+      "MAE quando V(t+h)<40": 3.096897335786898,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 60,
+      "modelo": "Ridge",
+      "MAE": 4.997733192157535,
+      "RMSE": 6.453120234646488,
+      "R2": 0.8665260517485412,
+      "MAE quando V(t+h)<40": 3.706182976811934,
+      "cobertura P10–P90": 0.7391513982642237
+    },
+    {
+      "horizonte": 60,
+      "modelo": "RandomForest",
+      "MAE": 4.477154882554078,
+      "RMSE": 6.3122886643553855,
+      "R2": 0.8722882970944957,
+      "MAE quando V(t+h)<40": 2.6104604971248833,
+      "cobertura P10–P90": 0.7405978784956606
+    },
+    {
+      "horizonte": 90,
+      "modelo": "Persistência (Δ=0)",
+      "MAE": 10.484578033268102,
+      "RMSE": 13.15648292312703,
+      "R2": 0.4530955424543529,
+      "MAE quando V(t+h)<40": 9.205973314037626,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 90,
+      "modelo": "Climatologia sazonal",
+      "MAE": 6.298707742412528,
+      "RMSE": 8.42564683801844,
+      "R2": 0.7756953103308645,
+      "MAE quando V(t+h)<40": 4.129808884928669,
+      "cobertura P10–P90": NaN
+    },
+    {
+      "horizonte": 90,
+      "modelo": "Ridge",
+      "MAE": 6.710534264207589,
+      "RMSE": 8.582995961544736,
+      "R2": 0.7672392934927469,
+      "MAE quando V(t+h)<40": 4.77474041530907,
+      "cobertura P10–P90": 0.702054794520548
+    },
+    {
+      "horizonte": 90,
+      "modelo": "RandomForest",
+      "MAE": 6.133257467251931,
+      "RMSE": 8.16496275256007,
+      "R2": 0.7893602812787264,
+      "MAE quando V(t+h)<40": 3.6444051213038473,
+      "cobertura P10–P90": 0.7240704500978473
+    }
+  ],
+  "clf": [
+    {
+      "amostras": "todos",
+      "modelo": "Baseline: V(t)<40 (persistência)",
+      "recall": 0.6526772793053546,
+      "precisão": 0.6507936507936508,
+      "F2": 0.6522996818050333,
+      "PR-AUC": 0.540476647904146,
+      "Brier": 0.23240115718418514,
+      "VP": 451,
+      "FN (crise não detectada)": 240,
+      "FP (alarme falso)": 242,
+      "VN": 1141
+    },
+    {
+      "amostras": "todos",
+      "modelo": "Baseline: V(t)<45",
+      "recall": 0.9232995658465991,
+      "precisão": 0.641851106639839,
+      "F2": 0.8488557743480575,
+      "PR-AUC": 0.6181753321874399,
+      "Brier": 0.19720347155255544,
+      "VP": 638,
+      "FN (crise não detectada)": 53,
+      "FP (alarme falso)": 356,
+      "VN": 1027
+    },
+    {
+      "amostras": "todos",
+      "modelo": "LogReg",
+      "recall": 0.7568740955137482,
+      "precisão": 0.7996941896024465,
+      "F2": 0.7650672908133411,
+      "PR-AUC": 0.8975595326552386,
+      "Brier": 0.1090156632141325,
+      "VP": 523,
+      "FN (crise não detectada)": 168,
+      "FP (alarme falso)": 131,
+      "VN": 1252
+    },
+    {
+      "amostras": "todos",
+      "modelo": "RandomForest",
+      "recall": 0.918958031837916,
+      "precisão": 0.79375,
+      "F2": 0.8908529741863075,
+      "PR-AUC": 0.9226233641388304,
+      "Brier": 0.08975706611823948,
+      "VP": 635,
+      "FN (crise não detectada)": 56,
+      "FP (alarme falso)": 165,
+      "VN": 1218
+    },
+    {
+      "amostras": "V(t) ≥ 40%",
+      "modelo": "Baseline: V(t)<40 (persistência)",
+      "recall": 0.0,
+      "precisão": 0.0,
+      "F2": 0.0,
+      "PR-AUC": 0.17378711078928313,
+      "Brier": 0.17378711078928313,
+      "VP": 0,
+      "FN (crise não detectada)": 240,
+      "FP (alarme falso)": 0,
+      "VN": 1141
+    },
+    {
+      "amostras": "V(t) ≥ 40%",
+      "modelo": "Baseline: V(t)<45",
+      "recall": 0.7791666666666667,
+      "precisão": 0.6212624584717608,
+      "F2": 0.7414750198255353,
+      "PR-AUC": 0.5224449858585469,
+      "Brier": 0.12092686459087618,
+      "VP": 187,
+      "FN (crise não detectada)": 53,
+      "FP (alarme falso)": 114,
+      "VN": 1027
+    },
+    {
+      "amostras": "V(t) ≥ 40%",
+      "modelo": "LogReg",
+      "recall": 0.3125,
+      "precisão": 0.9615384615384616,
+      "F2": 0.36127167630057805,
+      "PR-AUC": 0.8447489122175276,
+      "Brier": 0.07770919398146156,
+      "VP": 75,
+      "FN (crise não detectada)": 165,
+      "FP (alarme falso)": 3,
+      "VN": 1138
+    },
+    {
+      "amostras": "V(t) ≥ 40%",
+      "modelo": "RandomForest",
+      "recall": 0.8083333333333333,
+      "precisão": 0.8738738738738738,
+      "F2": 0.8206429780033841,
+      "PR-AUC": 0.9223625024989579,
+      "Brier": 0.054622724295546314,
+      "VP": 194,
+      "FN (crise não detectada)": 46,
+      "FP (alarme falso)": 28,
+      "VN": 1113
+    }
+  ],
+  "antecipacao": [
+    {
+      "entrada abaixo de 40%": "2021-08-11",
+      "LogReg: 1º alerta (dias antes)": "44",
+      "RandomForest: 1º alerta (dias antes)": "64"
+    },
+    {
+      "entrada abaixo de 40%": "2022-06-28",
+      "LogReg: 1º alerta (dias antes)": "14",
+      "RandomForest: 1º alerta (dias antes)": "110"
+    },
+    {
+      "entrada abaixo de 40%": "2025-08-06",
+      "LogReg: 1º alerta (dias antes)": "17",
+      "RandomForest: 1º alerta (dias antes)": "38"
+    },
+    {
+      "entrada abaixo de 40%": "2026-06-03",
+      "LogReg: 1º alerta (dias antes)": "≥ 120 (já em alerta no início da janela)",
+      "RandomForest: 1º alerta (dias antes)": "≥ 120 (já em alerta no início da janela)"
+    }
+  ],
+  "integracao": [
+    {
+      "posto": "Nazare Paulista (Atibainha Montante) - Cantareira",
+      "meses_completos": 50.0,
+      "pearson_r": 0.9188479607504657,
+      "spearman_rho": 0.9503481392557022,
+      "vies_medio_mm": 19.954999999999995,
+      "razao_totais": 1.1804690114223184
+    },
+    {
+      "posto": "Piracaia (Cachoeira Montante) - Cantareira",
+      "meses_completos": 129.0,
+      "pearson_r": 0.9247682315887393,
+      "spearman_rho": 0.9441283551091703,
+      "vies_medio_mm": -10.349534883720935,
+      "razao_totais": 0.9068253018900976
+    }
+  ],
+  "ano_hidro": {
+    "spearman": 0.7615384615384616,
+    "p": 9.792568235371881e-06,
+    "inclinacao_pp_100mm": 7.325730604645769,
+    "chuva_equilibrio": 1402.4919570494333
+  },
+  "mannwhitney": {
+    "mediana_crise": 1020.1179999999999,
+    "mediana_demais": 1117.5749999999998,
+    "p": 0.1308737761092798,
+    "n_crise": 11
+  },
+  "regra_alerta": "C: B + previsão central",
+  "aval_regras_val": [
+    {
+      "regra": "A: só volume atual",
+      "sub-alerta (emitido < real em t+60)": 0.20556745182012848,
+      "exato": 0.6531049250535332,
+      "sobre-alerta (emitido > real)": 0.14132762312633834,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "B: A + classificador",
+      "sub-alerta (emitido < real em t+60)": 0.10635260528194147,
+      "exato": 0.6067094932191291,
+      "sobre-alerta (emitido > real)": 0.28693790149892934,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "C: B + previsão central",
+      "sub-alerta (emitido < real em t+60)": 0.06138472519628837,
+      "exato": 0.6516773733047823,
+      "sobre-alerta (emitido > real)": 0.28693790149892934,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "D: B + cenário pessimista",
+      "sub-alerta (emitido < real em t+60)": 0.0028551034975017845,
+      "exato": 0.5867237687366167,
+      "sobre-alerta (emitido > real)": 0.4104211277658815,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "E: D + IRH≥75",
+      "sub-alerta (emitido < real em t+60)": 0.0028551034975017845,
+      "exato": 0.5867237687366167,
+      "sobre-alerta (emitido > real)": 0.4104211277658815,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    }
+  ],
+  "aval_regras_teste": [
+    {
+      "regra": "A: só volume atual",
+      "sub-alerta (emitido < real em t+60)": 0.1909353905496625,
+      "exato": 0.6470588235294118,
+      "sobre-alerta (emitido > real)": 0.16200578592092574,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.011571841851494697
+    },
+    {
+      "regra": "B: A + classificador",
+      "sub-alerta (emitido < real em t+60)": 0.0626808100289296,
+      "exato": 0.6793635486981678,
+      "sobre-alerta (emitido > real)": 0.2579556412729026,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "C: B + previsão central",
+      "sub-alerta (emitido < real em t+60)": 0.03085824493731919,
+      "exato": 0.7111861137897783,
+      "sobre-alerta (emitido > real)": 0.2579556412729026,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "D: B + cenário pessimista",
+      "sub-alerta (emitido < real em t+60)": 0.011571841851494697,
+      "exato": 0.6046287367405979,
+      "sobre-alerta (emitido > real)": 0.3837994214079074,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    },
+    {
+      "regra": "E: D + IRH≥75",
+      "sub-alerta (emitido < real em t+60)": 0.011571841851494697,
+      "exato": 0.6046287367405979,
+      "sobre-alerta (emitido > real)": 0.3837994214079074,
+      "sub-alerta grave (≥2 níveis abaixo)": 0.0
+    }
+  ],
+  "escalonamento_teste": 0.31774349083895853,
+  "irh_validacao": [
+    {
+      "sistema": "Alto Tietê",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.7864385654520426,
+      "rho_IRH_x_dV60": -0.03937862529352361,
+      "%_dias_evento(V<40)": 24.00205233453053,
+      "AUC_IRH_evento": 0.9081265585822571,
+      "AUC_só_volume_atual": 0.9410863844378401
+    },
+    {
+      "sistema": "Cantareira",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.8413695193357962,
+      "rho_IRH_x_dV60": -0.17094063711216537,
+      "%_dias_evento(V<40)": 35.96716264751155,
+      "AUC_IRH_evento": 0.9025643311752441,
+      "AUC_só_volume_atual": 0.9255359330992354
+    },
+    {
+      "sistema": "Cotia",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.8357757018507808,
+      "rho_IRH_x_dV60": -0.02645567476404006,
+      "%_dias_evento(V<40)": 14.130323242688558,
+      "AUC_IRH_evento": 0.9118720154657715,
+      "AUC_só_volume_atual": 0.9651454307379775
+    },
+    {
+      "sistema": "Guarapiranga",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.7339358864967601,
+      "rho_IRH_x_dV60": 0.15749331434894356,
+      "%_dias_evento(V<40)": 10.38481272447409,
+      "AUC_IRH_evento": 0.9022870068510295,
+      "AUC_só_volume_atual": 0.933341072819513
+    },
+    {
+      "sistema": "Rio Claro",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.7955866622419195,
+      "rho_IRH_x_dV60": 0.10759887082618645,
+      "%_dias_evento(V<40)": 13.884043099025142,
+      "AUC_IRH_evento": 0.8921830226513549,
+      "AUC_só_volume_atual": 0.8917331520464004
+    },
+    {
+      "sistema": "Rio Grande",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.6275440887727766,
+      "rho_IRH_x_dV60": 0.2560442678072739,
+      "%_dias_evento(V<40)": 0.0,
+      "AUC_IRH_evento": NaN,
+      "AUC_só_volume_atual": NaN
+    },
+    {
+      "sistema": "SIM (Integrado)",
+      "n": 9745,
+      "rho_IRH_x_V(t+60)": -0.8844638881177681,
+      "rho_IRH_x_dV60": -0.005739764843762648,
+      "%_dias_evento(V<40)": 21.354540790148793,
+      "AUC_IRH_evento": 0.9622503822234975,
+      "AUC_só_volume_atual": 0.9573445223159333
+    },
+    {
+      "sistema": "São Lourenço",
+      "n": 3077,
+      "rho_IRH_x_V(t+60)": -0.5705887399305826,
+      "rho_IRH_x_dV60": 0.25990429555415706,
+      "%_dias_evento(V<40)": 3.444913877153071,
+      "AUC_IRH_evento": 0.7817725433911459,
+      "AUC_só_volume_atual": 0.8258559153578936
+    }
+  ]
+}
